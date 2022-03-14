@@ -1,0 +1,16 @@
+/Calculator.class
+/Context.class
+/Interpreter.properties
+/ws_ftp.log
+/AddExpression.class
+/ButtonHandler.class
+/CalculatorManager.class
+/Expression.class
+/IntegerDivisionExpression.class
+/ModularExpression.class
+/MultiplyExpression.class
+/NonTerminalExpression.class
+/PowerExpression.class
+/Stack.class
+/SubtractExpression.class
+/TerminalExpression.class
