@@ -1,12 +1,12 @@
 
-import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
+//import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.*;
-import javafx.scene.layout.Border;
+//import javafx.scene.layout.Border;
 import javax.swing.*;
 
 /*
@@ -272,7 +272,7 @@ public class CalculatorManager extends JFrame {
         contentPane.add(calculatorPanel, BorderLayout.CENTER);
         
         try {
-            UIManager.setLookAndFeel(new WindowsLookAndFeel());
+           // UIManager.setLookAndFeel(new WindowsLookAndFeel());
             SwingUtilities.updateComponentTreeUI(CalculatorManager.this);
         } catch (Exception ex) {
             System.out.println(ex);
