@@ -143,7 +143,8 @@ public class Calculator {
   public boolean isOperator(String str) {
     if ((str.equals("+")) || (str.equals("-")) ||
         (str.equals("*")) || (str.equals("/")) ||
-        (str.equals("%")) || (str.equals("^")))
+        (str.equals("%")) || (str.equals("^")) ||
+        (str.equals("="))) 
       return true;
     return false;
   }
